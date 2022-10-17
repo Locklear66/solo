@@ -42,6 +42,7 @@ li {
 
 a {
   text-decoration: none;
+  color: white;
 
 }
 
@@ -488,6 +489,7 @@ p {
   border: none;
   color: white;
   background-color: rgb(245 101 101);
+  font-size: 1.3rem;
 }
 .second__main--btn{
   padding: 16px 32px;
@@ -495,4 +497,19 @@ p {
   border: solid 1px;
   color: white;
   background-color:rgb(80 17 204);
+  font-size: 1.3rem;
+  transition: all ease;
 }
+
+.second__main--btn:hover{
+  margin-top: 4px;
+  background-color: blue;
+  border: none;
+}
+
+.second__main--button:hover{
+  margin-top: 4px;
+  background-color: blue;
+  border: solid 1px white;
+}
+
