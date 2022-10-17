@@ -290,7 +290,7 @@ p {
 .pricing__container{
   display: flex;
   flex-wrap: wrap;
-  position: absolute;
+ 
 }
 
 .pricing{
@@ -321,7 +321,7 @@ p {
   flex-direction: column;
   align-items: center;
   margin: 0 16px;
-  width: calc(100%/4.5);
+  width: calc(100%/3.3);
   border: solid 2px lightgrey;
   border-radius: 12px;
   overflow: hidden;
@@ -332,7 +332,7 @@ p {
   flex-direction: column;
   align-items: center;
   margin: 0 16px;
-  width: calc(100%/4.5);
+  width: calc(100%/3.2);
   border: none;
   border-radius: 12px;
   overflow: hidden;
@@ -353,9 +353,8 @@ p {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin: 16px 0;
-  border-bottom: solid 2px rgb(98, 124, 158);
- 
+  margin: 24px 0;
+  
 }
 
 .top__border{
@@ -433,7 +432,6 @@ p {
   align-items: center;
   width: 100%;
   margin: 16px 0;
-  border-bottom: solid 2px rgb(241, 241, 241);
 }
 
 .middle__main--feature{
@@ -464,4 +462,37 @@ p {
   width: 50%;
   background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
   color: white;
+}
+
+/* Second Main */
+
+.second__main--wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 128px;
+  background-color: rgb(80 17 204) ;
+  height: 300px;
+  border-radius: 16px;
+  margin-bottom: 1000px;
+}
+
+.second__main--h1{
+  color: white;
+  width: 700px;
+}
+
+.second__main--button{
+  padding: 16px 32px;
+  border-radius: 35px;
+  border: none;
+  color: white;
+  background-color: rgb(245 101 101);
+}
+.second__main--btn{
+  padding: 16px 32px;
+  border-radius: 35px;
+  border: solid 1px;
+  color: white;
+  background-color:rgb(80 17 204);
 }
