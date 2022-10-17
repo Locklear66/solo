@@ -287,6 +287,11 @@ p {
 
 /* Pricing */
 
+.pricing__container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .pricing{
   display: flex;
   flex-direction: column;
@@ -305,14 +310,89 @@ p {
 }
 
 .pricing__para{
-  padding: 16px 0;
   font-weight: 500;
   font-size: 1.5rem;
+  margin-bottom: 16px;
 }
 
 .plans__container{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 px;
   width: calc(100%/3);
+  border: solid 2px lightgrey;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.plan__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 16px 0;
+  border-bottom: solid 2px lightgrey;
+}
+
+.top__border{
+  width: 100%;
+  height: 8px;
+  background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan__name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.plan__price{
+  padding: 16px 0;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.plan__duration{
+  padding: 16px 0;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.feature__info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 16px 0;
+  border-bottom: solid 2px lightgrey;
+}
+
+.main__feature{
+  padding: 16px 0;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.feature{
+  padding: 16px 0;
+  font-size: 1.2rem
+}
+
+.plans__btn{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.plan__btn{
+  margin-bottom: 12px;
+  padding: 16px;
+  border: none;
+  border-radius: 32px;
+  width: 50%;
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  color: white;
 }
