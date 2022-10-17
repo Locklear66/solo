@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  color: #242424;
+  line-height: 1.25;
+}
+
+span{
+  color: rgb(100 21 255);
+}
+
+.grey{
+  color: grey;
+}
+
+.text__color--purple {
+  color: purple;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+p {
+  line-height: 1.1;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* NAVBAR */
+
+.nav__container {
+  display: flex;
+  margin-top: 36px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav__img--wrapper {
+  display: flex;
+}
+
+.nav__img {
+  display: flex;
+  width: 40px;
+  margin: 0 16px;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__link {
+  margin: 0 24px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(100 21 255);
+  color: white;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 24px;
+  border: none;
+}
+
+.nav__link--btn{
+    color: white;
+}
+
+/* LANDING */
+
+.landing__container{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 48px 32px;
+  overflow: hidden;
+}
+
+.landing__wrapper{
+  width: 40%;
+}
+
+.landing__heading{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top:16px;
+  margin-bottom: 16px;
+}
+
+.landing__para{
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: left;
+}
+
+.landing__link--wrapper{
+  margin:32px 0;
+  border: solid 2px;
+  padding: 12px;
+  border-radius: 64px;
+  text-align: center;
+  color: lightgrey;
+  max-width: 420px;
+}
+
+.landing__link{
+  padding: 16px;
+  border: none;
+  font-weight:700;
+  font-size: 1.2rem;
+}
+
+.landing__btn{
+  padding: 16px 16px;
+  border-radius: 35px;
+  border: none;
+  color: white;
+  background-color:rgb(100 21 255);
+  text-align: end;
+}
+
+.landing__para--two{
+  margin-top: 46px;
+}
+
+.landing__logo{
+  width: 400px;
+  margin-top: 8px;
+}
+
+.landing__img--wrapper{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.landing__img{
+  width:650px;
+}
+
+/* MAIN */
+
+.main__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__intro{
+  font-weight:700;
+  margin: 16px 0;
+  margin-top: 250px;
+}
+
+.main__header{
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 16px 16px;
+}
+
+.main__para{
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.main__lists{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main__list{
+  display: flex;
+  flex-wrap: wrap;
+  width:calc(100%/3);
+  margin-top: 64px;
+}
+
+.list__img--container{
+  display: flex;
+  padding: 16px 16px;
+  color: lightgrey;
+  border:solid 1px;
+  border-radius: 40px;
+}
+
+.list__title{
+  padding: 16px;
+}
+
+.list__para{
+  padding: 16px;
+}
+
+/* STARTED */
+
+.container__started{
+  display: flex;
+  margin: 250px 0;
+}
+
+.started__img--container{
+  width: 50%;
+  margin-top: 126px;
+}
+
+.started__img{
+  width: 100%;
+}
+
+.started__lists--wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-left: 64px;
+}
+
+.started__h5{
+  padding: 24px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.started__h2{
+  padding-bottom: 16px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.started__list{
+  display: flex;
+  padding-top: 26px;
+}
+
+.started__number{
+  font-size: 3rem;
+  font-weight: 700;
+  color: lightgrey;
+  padding: 0px 16px;
+}
+
+.started__h6{
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 6px 16px;
+}
+
+.started__para{
+  width: 400px;
+  padding: 6px 16px;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+/* Pricing */
+
+.pricing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing__h3{
+  padding: 16px 0;
+  font-weight: 700;
+}
+
+.pricing__h2{
+  padding: 16px 0;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.pricing__para{
+  padding: 16px 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.plans__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100%/3);
+}
