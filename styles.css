@@ -475,7 +475,7 @@ p {
   background-color: rgb(80 17 204) ;
   height: 300px;
   border-radius: 16px;
-  margin-bottom: 1000px;
+  margin-bottom: 150px;
 }
 
 .second__main--h1{
@@ -513,3 +513,45 @@ p {
   border: solid 1px white;
 }
 
+/* FOOTER */
+
+.footer__heading{
+display: flex;
+justify-content: space-between;
+background-color: rgb(80 17 204);
+}
+
+.footer__links--wrapper{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(80 17 204);
+  padding: 128px 250px;
+}
+
+.footer__header{
+  color: white;
+}
+
+.footer__links{
+  color: white;
+}
+
+.footer__link{
+  padding: 8px 0;
+}
+
+.footer__copy-right{
+}
+
+.footer__wrapper{
+  background-color: rgb(80 17 204);
+  padding: 16px 16px;
+}
+
+.footer__img{
+  width: 32px;
+}
+
+.footer__btn{
+  border-radius: px;
+}
