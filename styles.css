@@ -541,6 +541,9 @@ background-color: rgb(80 17 204);
 }
 
 .footer__copy-right{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 250px;
 }
 
 .footer__wrapper{
@@ -553,5 +556,83 @@ background-color: rgb(80 17 204);
 }
 
 .footer__btn{
-  border-radius: px;
+  padding: 12px;
+  border-radius: 32px;
+}
+
+.footer__para{
+  padding-top: 16px;
+  color: white;
+}
+
+.footer__h2{
+  padding-top: 8px;
+  color: white;
+}
+
+
+/* For small phones */
+
+
+@media (max-width: 480px) {
+  .nav_link:not(:last-child) {
+      display: none;
+  }
+
+  .project_wrapper {
+      border-radius: 0;
+  }
+
+  .project_description {
+      padding: 0;
+      left: 0;
+      width: 100%;
+  }
+  .project_description-para {
+      display: none;
+  }
+  .project_description-links {
+      display: flex;
+      justify-content: center;
+  }
+
+  .project_description-title {
+      font-size: 32px;
+      line-height: 1;
+      text-align: center;
+  }
+
+  .project_description-sub-title {
+      text-align: center;
+      margin: 12px 0;
+  }
+}
+
+
+/* for large phones */
+
+
+@media (max-width: 768px) {
+  nav {
+      height: 68px;
+  }
+  h1 {
+      font-size: 28px;
+  }
+
+  .about-me_info-para {
+      font-size: 18px;
+  }
+
+  .language {
+      width: calc(100% / 3);
+  }
+
+  .project_description-para {
+      font-size: 14px;
+  }
+  .project_description {
+      left: 30px;
+      padding-right: 30px;
+  }
 }
